@@ -8,7 +8,7 @@ const App = () => {
     <View style={styles.container}>
       <View style={styles.taskWrapper}>
         <Text style={styles.sectionTitle}>Today's Task</Text>
-        <View>
+        <View style={styles.items}>
           <Task text={'task 1'} />
           <Task text={'task 2'} />
           <Task text={'task 3'} />
